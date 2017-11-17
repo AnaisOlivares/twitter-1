@@ -42,6 +42,14 @@ window.onload =addEventListener('load', function(event){
     
     counter.value = limit - letters;
 
+    msg.addEventListener('keydown', autosize);
+    function autosize(){
+    var resize = this;
+    setTimeout(function(){
+    resize.style.cssText = 'height:auto; padding:0';
+    resize.style.cssText = 'height:' + resize.scrollHeight + 'px';
+    },0);
+    }
   };
 
 })
