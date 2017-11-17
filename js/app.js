@@ -9,6 +9,7 @@ window.onload =addEventListener('load', function(event){
   btn.addEventListener('click', function(){
     if(msg.value !== ''){
       var message = document.createElement('p');
+      message.className = 'paragraph';
       message.textContent = msg.value;
       containerMsg.appendChild(message);
       msg.value = '';

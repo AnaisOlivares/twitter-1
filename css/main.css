@@ -3,37 +3,53 @@
   margin: 0;
   padding: 0;
 }
+
 body {
-  background-image: url(../assets/images/zelda.jpg);
+  background-image: url(../assets/images/twitter.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 header {
-  background: #1da1f2;
-  color: #fff;
+  background: #fff;
+  color: #1da1f2;
   font-size: 30px;
   text-align: center;
-  padding: 7px;
 }
 
 .box-1 {
   background: linear-gradient(transparent, #D5DBDB);
-  border-radius: 14px 14px 14px 0;
+  border-radius: 50%;
   box-sizing: border-box;
   display: inline-block;
-  transform: translateY(150px);
-  height:100px;
+  padding-top: 90px;
+  position: fixed;
+  transform: translateY(220px);
+  margin-left: 4%;
+  height:270px;
   text-align: center;
-  width: 300px;
+  width: 270px;
+}
 
+h3 {
+  font-weight: bold;
+  color:#fff;
 }
 
 .box-2 {
   background: linear-gradient(left, transparent, #D5DBDB);
   box-sizing: border-box;
   display: inline-block;
-  margin-top: 5%;
-  margin-left: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
+  width: 40%;
+}
+
+#container-msg {
+  float: right;
+  width: 200px;
+  height: auto;
+  transform: translateY(-50px);
 }
 
 #msg {
@@ -41,7 +57,10 @@ header {
   outline: none;
   height: 100px;
   width: 250px;
+  height: auto;
+  padding: 8px;
   resize: none;
+  overflow: hidden;
 }
 
 .btn-active {
@@ -67,5 +86,18 @@ header {
 #counter {
   outline: none;
   border-radius: 7px;
+  border-style: none;
+  margin-right: 22%;
+  text-align: center;
+  width: 30px;
 
+}
+
+.paragraph {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #FFF;
+  padding: 3px;
+  margin-bottom: 7px;
+  word-wrap: break-word;
 }
