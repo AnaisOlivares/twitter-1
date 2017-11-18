@@ -17,6 +17,10 @@ header {
   text-align: center;
 }
 
+img {
+  width: 160px;
+}
+
 .box-1 {
   background: linear-gradient(transparent, #D5DBDB);
   border-radius: 50%;
@@ -24,7 +28,7 @@ header {
   display: inline-block;
   padding-top: 90px;
   position: fixed;
-  transform: translateY(220px);
+  transform: translateY(270px);
   margin-left: 4%;
   height:270px;
   text-align: center;
@@ -42,12 +46,12 @@ h3 {
   display: inline-block;
   margin-top: 3%;
   margin-left: 5%;
-  width: 40%;
+  width: 50%;
 }
 
 #container-msg {
   float: right;
-  width: 200px;
+  width: 400px;
   height: auto;
   transform: translateY(-50px);
 }
@@ -96,7 +100,7 @@ h3 {
 }
 
 .paragraph {
-  background: #fff;
+  background: #e2e4e6;
   border-radius: 10px;
   box-shadow: 0 0 5px #FFF;
   padding: 3px;
