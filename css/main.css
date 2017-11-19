@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url(../assets/images/twitter.jpg);
+  background-image: url(../assets/images/leopard.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -13,7 +13,6 @@ body {
 header {
   background: #fff;
   color: #1da1f2;
-  font-size: 30px;
   text-align: center;
 }
 
@@ -23,14 +22,14 @@ img {
 
 .box-1 {
   background: linear-gradient(transparent, #D5DBDB);
-  border-radius: 50%;
+  border-radius: 15%;
   box-sizing: border-box;
   display: inline-block;
-  padding-top: 90px;
+  padding-top: 21px;
   position: fixed;
-  transform: translateY(270px);
+  transform: translateY(300px);
   margin-left: 4%;
-  height:270px;
+  height: 170px;
   text-align: center;
   width: 270px;
 }
@@ -46,10 +45,10 @@ h3 {
   display: inline-block;
   margin-top: 3%;
   margin-left: 5%;
-  width: 50%;
+  width: 60%;
 }
 
-#container-msg {
+#msg-container {
   float: right;
   width: 400px;
   height: auto;
@@ -93,7 +92,7 @@ h3 {
   border-style: none;
   font-weight: bold;
   font-size: 16px;
-  margin-right: 22%;
+  margin-right: 20%;
   text-align: center;
   width: 30px;
 

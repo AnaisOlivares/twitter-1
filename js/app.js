@@ -1,7 +1,7 @@
 window.onload =addEventListener('load', function(event){
   var msg = document.getElementById('msg');
   var btn = document.getElementById('btn');
-  var containerMsg = document.getElementById('container-msg');
+  var msgContainer = document.getElementById('msg-container');
   var counter = document.getElementById('counter');
   var limit = 140;
   var txt = '';
@@ -11,7 +11,7 @@ window.onload =addEventListener('load', function(event){
       var message = document.createElement('p');
       message.className = 'paragraph';
       message.textContent = msg.value;
-      containerMsg.appendChild(message);
+      msgContainer.appendChild(message);
       msg.value = '';
     }
   });
