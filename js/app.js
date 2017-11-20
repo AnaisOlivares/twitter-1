@@ -10,7 +10,7 @@ window.onload =addEventListener('load', function(event){
     if(msg.value !== ''){
       var message = document.createElement('p');
       message.className = 'paragraph';
-      message.textContent = msg.value;
+      message.innerHTML = msg.value + '<i> Posted ' + moment().format('hh:mm') + '</i>';
       msgContainer.appendChild(message);
       msg.value = '';
     }
